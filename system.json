@@ -51,6 +51,6 @@
   "gridDistance": 1,
   "gridUnits": "sqr",
   "primaryTokenAttribute": "resources.health",
-  "download": "https://github.com/LoicButhodGirard/spiritmaster/archive/refs/tags/Unfinished.zip",
+  "download": "https://github.com/LoicButhodGirard/spiritmaster/releases/download/Unfinished/spiritmasterV01.zip",
   "secondaryTokenAttribute": null
 }
