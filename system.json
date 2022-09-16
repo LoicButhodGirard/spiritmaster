@@ -1,0 +1,55 @@
+{
+  "id": "Spirit Master",
+  "title": "Spirit Master",
+  "description": "A new system Ive been developing.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Penny Buthod-Girard",
+	  "email": "loicbuthodgirard@gmail.com",
+	  "discord": "RoboPanda#2428"
+    }
+  ],
+  "scripts": [
+    "scripts/system-script-1.js",
+    "scripts/system-script-2.js"
+  ],
+  "esmodules": [
+    "scripts/system-module-1.mjs"
+  ],
+  "styles": [
+    "styles/system-styles-1.css",
+    "styles/system-styles-2.css"
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "My Monsters",
+      "path": "./packs/monsters.db",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "./packs/items.db",
+      "type": "Item"
+    }
+  ],
+"languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "gridDistance": 1,
+  "gridUnits": "sqr",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": null
+}

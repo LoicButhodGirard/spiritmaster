@@ -1,0 +1,61 @@
+{
+"Actor": {
+  "types": ["Player", "Minion", "Enemy"],
+  "templates": {
+    "attributes": {
+      "force":{
+        "value": 6
+      },
+      "bulk":{
+        "value": 6
+      },
+      "mind":{
+        "value": 6
+      },
+      "will":{
+        "value": 6
+      },
+      "hp":{
+        "value": 10,
+        "min": 0,
+        "shield": 0
+      }
+    },
+    "resources": {
+      "skills": {
+        "value": ""
+      }
+    }
+  },
+  "Player": {
+    "templates": ["attributes", "skills"],
+    "skill-points": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "Minion": {
+    "templates": ["resources"]
+  },
+  "Enemy": {
+    "templates": ["attributes", "skills"]
+  }
+},
+"Item": {
+  "types": ["weapon", "spell"],
+  "templates": {
+    "rarity": {
+      "rarity": "Common",
+      "price": 20
+    }
+  },
+  "weapon": {
+    "templates": ["rarity"],
+    "damage": 5
+  },
+  "spell": {
+    "templates": ["rarity"],
+    "cost": 2
+  }
+}
+}
