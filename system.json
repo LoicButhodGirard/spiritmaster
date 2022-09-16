@@ -16,15 +16,13 @@
     }
   ],
   "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
+    "scripts/system-script.js",
   ],
   "esmodules": [
-    "scripts/system-module-1.mjs"
+    "scripts/system-module.mjs"
   ],
   "styles": [
-    "styles/system-styles-1.css",
-    "styles/system-styles-2.css"
+    "styles/system-styles.css",
   ],
   "packs": [
     {
