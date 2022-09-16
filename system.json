@@ -2,7 +2,7 @@
   "id": "Spirit_Master",
   "title": "Spirit Master",
   "description": "A new system Ive been developing.",
-  "version": "1.0.0",
+  "version": "0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -51,5 +51,6 @@
   "gridDistance": 1,
   "gridUnits": "sqr",
   "primaryTokenAttribute": "resources.health",
+  "download": "https://github.com/LoicButhodGirard/spiritmaster/archive/refs/tags/Unfinished.zip",
   "secondaryTokenAttribute": null
 }
