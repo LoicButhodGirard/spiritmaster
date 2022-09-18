@@ -19,7 +19,7 @@
     "scripts/system-script.js"
   ],
   "esmodules": [
-    "scripts/system-module.mjs"
+    "scripts/spiritmaster.js"
   ],
   "styles": [
     "styles/system-styles.css"
